@@ -1,0 +1,52 @@
+baseURL = 'https://agentelement.net/'
+languageCode = 'en-us'
+title = "~/agentelement"
+theme = 'hugo-theme-m10c'
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  identifier = "art"
+  name = "Art"
+  url = "/art"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts"
+
+[[menu.main]]
+  identifier = "pgp"
+  name = "PGP"
+  url = "/pgp"
+
+
+[params.style]
+  darkestColor = "#1B1C1E"
+  darkColor = "#232326"
+  lightColor = "#a7aab0"
+  lightestColor = "#c7cad0"
+  primaryColor = "#57A5E5"
+
+[params]
+    avatar = "gal.jpg"
+    author = "agentelement"
+    description = "The most fun ideas tend to be stupid. And I only like fun ideas."
+
+[[params.social]]
+  icon = "brand-github"
+  name = "The Hub"
+  url = "https://github.com/agentelement"
+  
+[[params.social]]
+  icon = "brand-mastodon"
+  name = "'stodon"
+  url = "https://mathstodon.xyz/@agentelement"
