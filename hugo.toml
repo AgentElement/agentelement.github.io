@@ -39,7 +39,7 @@ theme = 'hugo-theme-m10c'
 [params]
     avatar = "gal.jpg"
     author = "agentelement"
-    description = "The most fun ideas tend to be stupid. And I only like fun ideas."
+    description = "Fun ideas tend to be stupid. And I have lots of fun ideas."
 
 [[params.social]]
   icon = "brand-github"
