@@ -18,10 +18,10 @@ theme = 'hugo-theme-m10c'
   name = "Art"
   url = "/art"
 
-[[menu.main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "/posts"
+# [[menu.main]]
+#   identifier = "blog"
+#   name = "Blog"
+#   url = "/posts"
 
 [[menu.main]]
   identifier = "pgp"
@@ -39,13 +39,13 @@ theme = 'hugo-theme-m10c'
 [params]
     avatar = "gal.jpg"
     author = "agentelement"
-    description = "Fun ideas tend to be stupid. And I have lots of fun ideas."
+    description = "I generate stupid fun"
 
 [[params.social]]
   icon = "brand-github"
   name = "The Hub"
   url = "https://github.com/agentelement"
-  
+
 [[params.social]]
   icon = "brand-mastodon"
   name = "'stodon"
