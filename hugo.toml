@@ -11,23 +11,27 @@ theme = 'hugo-theme-m10c'
 [[menu.main]]
   identifier = "about"
   name = "About"
-  url = "/about"
+  url = "/about/"
 
 [[menu.main]]
-  identifier = "art"
-  name = "Art"
-  url = "/art"
+  identifier = "hacks"
+  name = "Hacks"
+  url = "/hacks/"
 
-# [[menu.main]]
-#   identifier = "blog"
-#   name = "Blog"
-#   url = "/posts"
+[[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
 
 [[menu.main]]
   identifier = "pgp"
   name = "PGP"
-  url = "/pgp"
+  url = "/pgp/"
 
+[params]
+    avatar = "gal.jpg"
+    author = "agentelement"
+    description = "Sometimes serious. Mostly goofy."
 
 [params.style]
   darkestColor = "#1B1C1E"
@@ -35,11 +39,6 @@ theme = 'hugo-theme-m10c'
   lightColor = "#a7aab0"
   lightestColor = "#c7cad0"
   primaryColor = "#57A5E5"
-
-[params]
-    avatar = "gal.jpg"
-    author = "agentelement"
-    description = "I generate stupid fun"
 
 [[params.social]]
   icon = "brand-github"
@@ -50,3 +49,8 @@ theme = 'hugo-theme-m10c'
   icon = "brand-mastodon"
   name = "'stodon"
   url = "https://mathstodon.xyz/@agentelement"
+
+[[params.social]]
+  icon = "brand-googlescholar"
+  name = "useless point counting"
+  url = "https://scholar.google.com/citations?user=sd9EGi8AAAAJ"

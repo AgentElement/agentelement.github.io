@@ -2,7 +2,7 @@
 title: 'Tesla Coil'
 date: 2021-08-08
 draft: false
-tags: [sculpture]
+tags: [sculpture, electronics]
 ---
 
-![dice](drsstc.jpg)
+![drsstc](drsstc.jpg)
