@@ -1,5 +1,5 @@
 ---
-type: blog
+title: About
 draft: false
 date: 2025-08-10
 ---

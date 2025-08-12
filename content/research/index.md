@@ -90,7 +90,6 @@ Luckily, we wrote a very parallel lambda calculus reduction machine in rust.)
 assembly index of a molecule. It's controversial among people doing space
 chemistry stuff. Worse still, it's #P-complete. Let's try to compute it really
 fast anyway. And we'll make it open-source, because proprietary software = bad.
-Juicy algorithms abound!
 
 ***
 [1] in this case, "me" = me, not Boris
