@@ -9,9 +9,9 @@ theme = 'hugo-theme-m10c'
   url = "/tags/"
 
 [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
+  identifier = "home"
+  name = "Home"
+  url = "/"
 
 [[menu.main]]
   identifier = "hacks"
@@ -19,9 +19,9 @@ theme = 'hugo-theme-m10c'
   url = "/hacks/"
 
 [[menu.main]]
-    identifier = "research"
-    name = "Research"
-    url = "/research/"
+  identifier = "research"
+  name = "Research"
+  url = "/research/"
 
 [[menu.main]]
   identifier = "pgp"
@@ -29,9 +29,9 @@ theme = 'hugo-theme-m10c'
   url = "/pgp/"
 
 [params]
-    avatar = "gal.jpg"
-    author = "agentelement"
-    description = "Sometimes serious. Mostly goofy."
+  avatar = "gal.jpg"
+  author = "agentelement"
+  description = "Sometimes serious. Mostly goofy."
 
 [params.style]
   darkestColor = "#1B1C1E"
