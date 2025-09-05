@@ -66,6 +66,8 @@ this is a cute result.
 **Prebiotic Functional Programming: Endogenous Selection in an Artifical Chemistry**,
 2025,
 *[ALIFE](https://2025.alife.org) (to appear)*
+[pdf](https://arxiv.org/abs/2509.03534)
+[git](https://github.com/agentelement/functional-supercollider)
 
 **TLDR**: A pseudo-follow-up to [MPW+24]. In [MPW+24], the lambda calculus
 expressions act sort of like organisms, and composition sort of acts like a
