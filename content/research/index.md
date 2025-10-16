@@ -65,7 +65,7 @@ this is a cute result.
 [VMW+25] -- Devansh Vimal, Cole Mathis, Westley Weimer, Stephanie Forrest,
 **Prebiotic Functional Programming: Endogenous Selection in an Artifical Chemistry**,
 2025,
-*[ALIFE](https://2025.alife.org) (to appear)*
+*[ALIFE](https://2025.alife.org)*
 [pdf](https://arxiv.org/abs/2509.03534)
 [git](https://github.com/agentelement/functional-supercollider)
 
