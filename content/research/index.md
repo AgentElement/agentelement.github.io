@@ -1,6 +1,6 @@
 ---
 title: Research
-date: 2025-08-10
+date: 2026-04-20
 draft: false
 ---
 
@@ -23,9 +23,14 @@ Papers are listed chronologically, oldest to newest.
 **TLDR**: Generate a giant set of expressions in the [lambda
 calculus](https://en.wikipedia.org/wiki/Lambda_calculus) (a simple functional
 programming language). Take two out. Compose and reduce (evaluate) them. Return
-the composed expression and one parent back into the set. Repeat a bazillion
-times. Do you observe anything interesting? Are there theoretical implications
-for certain types of chemistries?
+the composed expression and one parent back into the set. Repeat many (~10^8)
+times. What structures emerge? Are there theoretical implications for certain
+types of chemistries?
+
+We show that stable structures that are robust to certain types of perturbation
+emerge, and we show that this system is a simulator for any chemical reaction
+network (CRN).
+
 
 ***
 
@@ -35,21 +40,21 @@ for certain types of chemistries?
 *arXiv preprint*,
 [pdf](https://arxiv.org/abs/2505.09534)
 
-**TLDR (non-math):** OK, this one is really cool.
-[Charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing) is a neat little
-method of reading inputs from a lot of switches using relatively few
-microcontroller pins. Charlieplexed circuits can be transformed into 'power
-saving' circuits by adding a few interrupt lines. The transformation of an
-ordinary charlieplex circuit to the power-saving circuit might make the
+**TLDR (non-math):**
+[Charlieplexing](https://en.wikipedia.org/wiki/Charlieplexing) is a neat method
+of reading inputs from a lot of switches using relatively few microcontroller
+pins. Charlieplexed circuits are not power-efficient by default, but they can
+be made power-efficient by adding a few interrupt lines. The transformation of
+an ordinary charlieplex circuit to the power-saving circuit might make the
 power-saving circuit unroutable on a single-sided PCB (i.e. non-planar). Here,
 I characterize all charlieplex circuits for which the power-saving circuits are
-planar. Turns out that this is the set of all
+planar. I prove that this is the set of all
 [bipartite](https://en.wikipedia.org/wiki/Bipartite_graph)
 [cactus](https://en.m.wikipedia.org/wiki/Cactus_graph) graphs.
 
-I discovered this result after trying much too hard to save $1 off of a
-PCB order by making my PCB single-sided. The PCB was for
-[heartstopper](https://github.com/agentelement/heartstopper), a tiny mechanical
+I discovered this result after trying much too hard to save $1 off of a PCB
+order by making my PCB single-sided. The PCB was for
+[heartstopper](/hacks/heartstopper), a tiny mechanical
 keyboard.
 
 **TLDR (math):** Let G be a graph, and let S(G) be a transformation of this
@@ -71,27 +76,24 @@ this is a cute result.
 
 **TLDR**: A pseudo-follow-up to [MPW+24]. In [MPW+24], the lambda calculus
 expressions act sort of like organisms, and composition sort of acts like a
-crossover operator. Hey, that's all you need for evolution! Now let's play god:
-can we add special organisms (carefully constructed combinators) into the
+crossover operator. This structure is all you need for evolution!
+So, can we add special organisms (carefully constructed combinators) into the
 system such that we force the evolution of desirable lambda calculus
-expressions?
-
-(You can, but good results take up a lot of reductions.
-Luckily, we wrote a very parallel lambda calculus reduction machine in rust.)
+expressions? We show that you can.
 
 ***
 
-[VPS+25] -- Devansh Vimal, Garrett Parzych, Olivia M. Smith, Devendra Parkar and Sean Bergen, Joshua J. Daymude, Cole Mathis,
-**Open, Reproducible Calculation of Assembly Indices**,
-2025,
-*arXiv preprint*,
-[pdf](https://arxiv.org/abs/2507.08852),
+[VPS+26] -- Devansh Vimal, Garrett Parzych, Olivia M. Smith, Devendra Parkar and Sean Bergen, Joshua J. Daymude, Cole Mathis,
+**assembly-theory: Open, Reproducible Calculation of Assembly Indices**,
+2026,
+[*Journal of Open Source Software, 11(117), 9318*](https://joss.theoj.org/papers/10.21105/joss.09318)
+[pdf](https://arxiv.org/abs/2507.08852)
+[doi](https://doi.org/10.21105/joss.09318)
 [git](https://github.com/DaymudeLab/assembly-theory)
 
 **TLDR**: There's a graph-theoretic measure of molecular complexity called the
-assembly index of a molecule. It's controversial among people doing space
-chemistry stuff. Worse still, it's #P-complete. Let's try to compute it really
-fast anyway. And we'll make it open-source, because proprietary software = bad.
+assembly index of a molecule. It's this index is shown to be NP-complete for
+general graphs. We compute it quickly using fast heuristics.
 
 ***
 [1] in this case, "me" = me, not Boris
