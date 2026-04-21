@@ -6,7 +6,7 @@ date: 2025-08-10
 
 I write about math, engineering, and computers. Sometimes I make artsy things.
 Artwork, blog posts, and cool pictures about cool things I've made can all be
-found below, or on the [hacks](/hacks) page.
+found below, or on the [posts](/hacks) page.
 
 I like tabletop RPGs, and Pathfinder 2e is the system I've run the most. I also
 enjoy cooking spicy food, hiking through deserts, and reading sci-fi.

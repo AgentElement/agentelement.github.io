@@ -5,7 +5,7 @@ date: 2025-07-19
 title: 'Fabric wallet'
 ---
 
-I had some fabric scraps left over from the [dice bag project](/hacks/dicebags)
+I had some fabric scraps left over from the [dice bag project](../dicebags)
 and I wanted to replace a cheap old wallet that did not have much in the way of
 card organization. At the time of me making this, I had planned a few flights
 out for Open Sauce 2025, a maker con. Surprisingly, the TSA allows sewing

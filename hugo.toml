@@ -14,8 +14,8 @@ theme = 'hugo-theme-m10c'
   url = "/"
 
 [[menu.main]]
-  identifier = "hacks"
-  name = "Hacks"
+  identifier = "posts"
+  name = "Posts"
   url = "/hacks/"
 
 [[menu.main]]

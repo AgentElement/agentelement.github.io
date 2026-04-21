@@ -31,4 +31,4 @@ hackerspace](https://heatsynclabs.org) was hosting a sewing night the very
 night before my flight out to meet him, and so began this project.
 
 The patterned navy blue bag went to my friend, the orange bag to his partner,
-and I kept the solid blue bag. The blue bag stores my [bronze dice](/hacks/dice).
+and I kept the solid blue bag. The blue bag stores my [bronze dice](../dice).
