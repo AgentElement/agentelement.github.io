@@ -49,9 +49,9 @@ corresponds to the addition of the interrupt lines. To transform G into S(G),
 for each vertex v in G, add a new vertex v', which represents an interrupt
 line. Then connect v' to v and all original neighbors of v in G. For which G is
 S(G) planar? I prove in [this paper](https://arxiv.org/abs/2505.09534) that
-S(G) is planar if and only if G is the set of bipartite cactus graphs -- the
-set of graphs where all cycles are of even order, and where no two cycles share
-an edge.
+S(G) is planar if and only if G is a bipartite cactus graph -- the set of
+graphs where all cycles are of even order, and where no two cycles share an
+edge.
 
 ***
 
