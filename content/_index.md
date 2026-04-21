@@ -6,17 +6,12 @@ date: 2025-08-10
 
 I write about math, engineering, and computers. Sometimes I make artsy things.
 Artwork, blog posts, and cool pictures about cool things I've made can all be
-found below, or on the [posts](/hacks) page.
-
-I like tabletop RPGs, and Pathfinder 2e is the system I've run the most. I also
-enjoy cooking spicy food, hiking through deserts, and reading sci-fi.
+found below, or on the [posts](/hacks) page. Software of questionable
+usefulness can be found on the [software](/software) page.
 
 Academic papers and preprints are listed in [research](/research). My academic
-interests are varied, but generally fall somewhere between CS theory and
-systems. Within theory, I mostly like thinking about combinatorial problems
-emerging from engineering, anything involving graphs, and complexity theory.
-Within systems, I care about functional programming, emergent behavior, and
-performance, performance, performance.
+interests are varied, but I generally write about combinatorics and functional
+programming.
 
 ***
 

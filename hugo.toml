@@ -28,6 +28,11 @@ theme = 'hugo-theme-m10c'
   name = "PGP"
   url = "/pgp/"
 
+[[menu.main]]
+  identifier = "software"
+  name = "Software"
+  url = "/software/"
+
 [params]
   avatar = "gal.jpg"
   author = "agentelement"
